@@ -1,10 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyC0nsbsAdPQDzCUkxfga0Uazw8-U7rO_N4",
-    authDomain: "volenyeer-network-ass-10.firebaseapp.com",
-    databaseURL: "https://volenyeer-network-ass-10.firebaseio.com",
-    projectId: "volenyeer-network-ass-10",
-    storageBucket: "volenyeer-network-ass-10.appspot.com",
-    messagingSenderId: "260499461700",
-    appId: "1:260499461700:web:ca26e90d27983d2640ce11"
-  };
+  apiKey: "AIzaSyDzDL-N0L3xWmMZ5qgvxDP-owT7Fw6SbsE",
+  authDomain: "volunteer-web-app-7176e.firebaseapp.com",
+  projectId: "volunteer-web-app-7176e",
+  storageBucket: "volunteer-web-app-7176e.appspot.com",
+  messagingSenderId: "9113024666",
+  appId: "1:9113024666:web:f3cfb104b5acaf5e3a4723"
+};
   export default firebaseConfig;

@@ -12,7 +12,7 @@ const MainRegister = () => {
     const history = useHistory();
     
     const handleSubmit = (e) => {
-        fetch("http://localhost:5000/addBooking", {
+        fetch("https://guarded-cove-45357.herokuapp.com/addBooking", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

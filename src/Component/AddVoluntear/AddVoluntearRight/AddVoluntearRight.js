@@ -11,7 +11,7 @@ const AddVoluntearRight = () => {
     console.log(data);
 
     const handleSubmits = (e) => {
-        fetch("http://localhost:5000/volunteerCards", {
+        fetch("https://guarded-cove-45357.herokuapp.com/volunteerCards", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

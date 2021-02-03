@@ -12,7 +12,7 @@ const RegisterLists = () => {
     const deleteItem = useHistory();
     const handleDelete = (id) => {
         console.log(id);
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://guarded-cove-45357.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())
@@ -26,7 +26,7 @@ const RegisterLists = () => {
 
     const [allVolunteer, setAllVolunteer] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/allVolunteers')
+        fetch('https://guarded-cove-45357.herokuapp.com/allVolunteers')
             .then(result => result.json())
             .then(data => setAllVolunteer(data))
     }, [allVolunteer._id]);

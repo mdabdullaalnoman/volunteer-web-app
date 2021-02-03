@@ -7,7 +7,7 @@ import './Home.css';
 const Home = () => {
 
     // const addVolunteer = () => {
-    //     fetch('http://localhost:5000/volunteerCard' , {
+    //     fetch('https://guarded-cove-45357.herokuapp.com/volunteerCard' , {
     //         method:'POST', 
     //         headers: {'Content-Type' : 'application/json'},
     //         body: JSON.stringify(voluntear)

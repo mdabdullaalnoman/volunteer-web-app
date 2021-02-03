@@ -10,7 +10,7 @@ const AddedServiceCard = () => {
 
     useEffect(() => {
         if (email) {
-            fetch('http://localhost:5000/singleVolunteer?email=' + email)
+            fetch('https://guarded-cove-45357.herokuapp.com/singleVolunteer?email=' + email)
                 .then(result => result.json())
                 .then(data => setAddedService(data))
         }
@@ -23,7 +23,7 @@ const AddedServiceCard = () => {
 
     const handleDelete = (id) => {
         console.log(id);
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://guarded-cove-45357.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

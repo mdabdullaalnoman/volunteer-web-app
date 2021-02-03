@@ -8,7 +8,7 @@ import AddVoluntearRight from '../AddVoluntearRight/AddVoluntearRight';
 const AddVoluntear = () => {
 
     // const handleAll = () => {
-    //     fetch("http://localhost:5000/volunteerCard", {
+    //     fetch("https://guarded-cove-45357.herokuapp.com/volunteerCard", {
     //         method: "POST",
     //         headers: {
     //           "Content-Type": "application/json",

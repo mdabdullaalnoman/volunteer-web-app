@@ -16,7 +16,7 @@ const CardSection = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/volunteerCards')
+        fetch('https://guarded-cove-45357.herokuapp.com/volunteerCards')
             .then(res => res.json())
             .then(data => setVolunteer(data))
             setLodding(false);
