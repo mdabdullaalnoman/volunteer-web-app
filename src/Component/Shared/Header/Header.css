@@ -1,0 +1,33 @@
+.home{
+    text-decoration: underline ;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 2px -2px rgba(37, 35, 35, 0.2);
+}
+.btn-warning {
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif ;
+}
+.btn-danger{
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif; 
+}
+.bg-light {
+    background-color: #f8f9fa42!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #222831;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+

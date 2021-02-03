@@ -1,0 +1,24 @@
+.singleCards{
+    margin:10px;
+    padding: 10px;
+    background:#91d8dd;
+    border-radius: 10px;
+}
+.singleCardImage img{
+ overflow: hidden;
+ width: 100%;
+}
+.single-card-description h6{
+    text-align: left;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 20px;
+}
+.single-card-description p{
+    text-align: left;
+    font-weight: bold;
+}
+.single-card-description button{
+   display: flex;
+   align-items: right;
+}

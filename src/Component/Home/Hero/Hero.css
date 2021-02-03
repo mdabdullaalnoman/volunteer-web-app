@@ -1,0 +1,21 @@
+.hero-area{
+    text-align: center;
+}
+.hero-area input{
+    border: none;
+    padding: 8px;
+    width: 40%;
+    pointer-events: visible;
+}
+.hero-area button{
+    border:none;
+    width: 10%;
+    padding: 8px 0px;
+    background-color: #dc3545;
+}
+.hero-area-inside{
+    margin-top: 15px;
+}
+.fa-search{
+    text-align: center;
+}
