@@ -5,15 +5,11 @@ import { Link } from 'react-router-dom';
 import { UserContext } from '../../../App';
 import { Spinner } from 'react-bootstrap';
 
-
-
-
 const CardSection = () => {
     const [volunteer, setVolunteer] = useState([]);
     const { singleInfo } = useContext(UserContext);
     const [singleVolunteer, setSingleVolunteer] = singleInfo;
     const [loading, setLodding] = useState(true);
-
 
     useEffect(() => {
         fetch('https://guarded-cove-45357.herokuapp.com/volunteerCards')
@@ -21,6 +17,7 @@ const CardSection = () => {
             .then(data => setVolunteer(data))
             setLodding(false);
     }, []);
+    console.log(volunteer);
 
     const handleSingleVolunteer = (data) => {
         setSingleVolunteer(data);

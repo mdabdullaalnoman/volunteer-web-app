@@ -19,10 +19,10 @@ export const UserContext = createContext();
 
 function App() {
   const [loggedInUser, setLoggedInUser] = useState([]);
-  const [singleVolunteer , setSingleVolunteer] = useState();
+  const [singleVolunteer, setSingleVolunteer] = useState();
 
   return (
-    <UserContext.Provider value={{ logInfo : [loggedInUser, setLoggedInUser] , singleInfo : [singleVolunteer, setSingleVolunteer]}}>
+    <UserContext.Provider value={{ logInfo: [loggedInUser, setLoggedInUser], singleInfo: [singleVolunteer, setSingleVolunteer] }}>
       <Router>
         <Switch>
           <Route exact path="/">
