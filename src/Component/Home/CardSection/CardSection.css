@@ -8,7 +8,7 @@
     box-sizing: border-box; */
 }
 .card-containers:hover{
-    opacity: 0.5;
+    color: rgba(0, 0, 0, 0.363);
     transition: .5s;
 }
 .cards{
